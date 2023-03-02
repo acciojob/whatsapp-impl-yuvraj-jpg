@@ -32,7 +32,7 @@ public class WhatsappRepository {
         }
         userMobile.add(mobile);
         User user = new User(name,mobile);
-        return "Success";
+        return "SUCCESS";
     }
 
     public Group createGroup(List<User> users){
